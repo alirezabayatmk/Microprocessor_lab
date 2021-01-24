@@ -1,0 +1,29 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_seed                                                                             0x0160       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+num                                                                               R4,R5        2
+container                                                                         R6,R7        2
+t0                                                                                R8,R9        2
+t1                                                                                R10,R11      2
+turn                                                                              R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+timer0_ovf_isr                                                                    0x00069     82
+timer1_ovf_isr                                                                    0x000BB     33
+main                                                                              0x000DC     19
+ftrunc                                                                            0x000EF     49
+floor                                                                             0x00120     19
+log                                                                               0x00133    134
+exp                                                                               0x001B9    154
+pow                                                                               0x00253     82

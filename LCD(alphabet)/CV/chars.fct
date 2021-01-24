@@ -1,0 +1,4 @@
+main DSTACK_USAGE:28 DSTACK_LEVEL:28 FILE:"chars.c" LINE:35
+lcd_putchar DSTACK_USAGE:1 DSTACK_LEVEL:29 FILE:"C:\cvavr\lib\lcd.lib" LINE:178
+lcd_gotoxy DSTACK_USAGE:2 DSTACK_LEVEL:31 FILE:"C:\cvavr\lib\lcd.lib" LINE:158
+_lcd_write_data DSTACK_USAGE:1 DSTACK_LEVEL:32 FILE:"C:\cvavr\lib\lcd.lib" LINE:77
